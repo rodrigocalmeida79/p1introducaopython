@@ -1,0 +1,108 @@
+# EXERCÍCIOS - AULAS DO GUANABARA
+# INÍCIO EXE 001
+# QUESTÃO 005 E 006
+# numero = int(input('Digite um número: '))
+
+# print('Número digitado {}\n >>> Seu antecessor: {}\n >>> Seu sucesso: {}'.format(numero, numero - 1, numero + 1))
+
+# dobro = numero * 2
+# triplo = numero * 3
+# quadrado = numero ** (1/2)
+
+# print(' >>> Seu dobro: {} \n >>> Seu triplo: {} \n >>> Raiz quadrada: {}'.format(dobro, triplo, quadrado))
+# FIM
+# ====================================================
+# QUESTÃO 007
+# nota1 = float(input('Digite sua primeira nota: '))
+# nota2 = float(input('Digite sua segunda nota: '))
+# media = (nota1 + nota2) / 2
+
+# if nota1 == '':
+#     print('Digite a nota 1!')
+# elif nota2 == '':
+#     print('Digite a nota 2!')
+# else:
+#     print('* Primeira nota: {:.>15} \n* Segunda nota: {:.>16} \n >>> Média: {:.>20}'.format(nota1, nota2, media))
+# FIM
+# ====================================================
+# QUESTÃO 008
+
+# metros = float(input('Digite o número de metros: '))
+# centimetros = metros * 100
+
+# print('> {} metros convertidos em centímetros dá:\n>>> Resposta: {} cm'.format(metros, centimetros))
+
+# FIM
+# ====================================================
+# QUESTÃO 009
+
+# numero = int(input('Digite um número: '))
+
+# print('>>>Tabuada de: {}'.format(numero))
+# print('>Tabuada de: {} X 1 = {}'.format(numero, numero * 1))
+# print('>Tabuada de: {} X 2 = {}'.format(numero, numero * 2))
+# print('>Tabuada de: {} X 3 = {}'.format(numero, numero * 3))
+# print('>Tabuada de: {} X 4 = {}'.format(numero, numero * 4))
+# print('>Tabuada de: {} X 5 = {}'.format(numero, numero * 5))
+# print('>Tabuada de: {} X 6 = {}'.format(numero, numero * 6))
+# print('>Tabuada de: {} X 7 = {}'.format(numero, numero * 7))
+# print('>Tabuada de: {} X 8 = {}'.format(numero, numero * 8))
+# print('>Tabuada de: {} X 9 = {}'.format(numero, numero * 9))
+# print('>Tabuada de: {} X 10 = {}'.format(numero, numero * 10))
+
+# FIM
+# ====================================================
+# QUESTÃO 010
+
+# print('CONVERTER REAIS EM DÓLARES:')
+# reais = float(input('Quantos Reais vocês tem: '))
+
+# valordodolar = 3.57
+
+# dolares = reais / valordodolar
+
+# print('Com R$ {:.2f}, você pode comprar US$ {:.2f}.'.format(reais, dolares))
+
+
+# FIM
+# ====================================================
+# QUESTÃO 011
+
+# largura = float(input('Digite a largura da parede: '))
+# altura = float(input('Digite a altura da parede: '))
+
+# area = largura * altura
+
+# litrometro = 2
+
+# gastarlitros = area / litrometro
+
+# print('Você irá pintar {:.0f} m2.'.format(area))
+# print('Precisará de {:.2f} litro(s) de tinta.'.format(gastarlitros))
+
+# FIM
+# ====================================================
+# QUESTÃO 012
+
+# preco = float(input('Digite o preço do produto: '))
+# desconto = preco * 0.05
+
+# preconovo = preco - desconto
+
+# print('Valor do produto: R$ {:.2f}'.format(preco))
+# print('Valor do desconto (5%) - R$ {:.2f}'.format(desconto))
+# print('Valor com desconto: R$ {:.2f}'.format(preconovo))
+
+# FIM
+# ====================================================
+# QUESTÃO 013
+
+salario = float(input('Digite o valor do seu salário: '))
+
+novosalario = salario * 1.15
+
+print('Salário atual: R$ {:.2f}'.format(salario))
+print('Novo salário com 15% de aumento: R$ {:.2f}'.format(novosalario))
+
+# FIM
+# =====
